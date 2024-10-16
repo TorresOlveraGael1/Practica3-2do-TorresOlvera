@@ -90,3 +90,52 @@ print(f"vive en {usuario['direccion']}")
 print (f"su número de teléfono es {usuario['telefono']}.")
 
 ![image](https://github.com/user-attachments/assets/a610fd55-3576-4a68-9986-a818f84a7bc1)
+![image](https://github.com/user-attachments/assets/1e8c97e6-d2b9-4b3c-b75e-8aefe854eccb)
+
+# Punto 3
+
+#Guardar en un diccionario precios de las frutas en una matriz, luego preguntar al usuario por fruta 
+
+print (" ")
+
+print ("Torres Olvera Gael")
+
+print (" ")
+
+#Definir un diccionario con los precios de las frutas
+
+precios_frutas = {
+
+    'manzana': 2.5,  #precio por kilo
+    
+    'banana': 1.2,
+    
+    'naranja': 3.0,
+    
+    'uva': 4.0,
+    
+    'fresa': 5.5
+    
+}
+
+#Preguntar al usuario por la fruta y la cantidad de kilos
+
+fruta = input("Introduce la fruta que deseas comprar: ").lower()
+
+kilos = float(input("Introduce el número de kilos: "))
+
+#Verificar si la fruta está en el diccionario
+
+if fruta in precios_frutas:
+
+    precio_total = precios_frutas[fruta] * kilos
+    
+    print(f"El precio de {kilos} kilos de {fruta} es: {precio_total:.2f} €")
+    
+else:
+
+    print("La fruta no está en el diccionario.")
+
+![image](https://github.com/user-attachments/assets/0835429b-1b01-4c81-9f85-515893f2f1b6)
+![image](https://github.com/user-attachments/assets/5ff64487-c9fd-4487-b889-cec382fa2bc8)
+![image](https://github.com/user-attachments/assets/733053ad-d61d-4b30-92d7-de0468124241)
